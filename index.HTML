@@ -1,0 +1,108 @@
+<html>
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap" rel="stylesheet">
+
+        <title>Tienda SuperRobot</title>
+        <link rel="icon" type="image/jpg" href="img/rob2.png">
+
+        <style>
+            /*MENU SUPERIOR*/
+            nav{
+                background: #222;
+                padding: 10px 0;
+            }
+            nav ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+
+            }
+            nav ul li{
+                margin: 0 15px;
+
+            }
+            nav ul li a{
+                color:#fff;
+                text-decoration: none;
+                font-weight: bold;
+                transition: color 0.3s;
+
+            }
+            nav ul li a:hover{
+                color: lightskyblue;
+            }
+            .contenedor{
+                background-color: lightskyblue;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .titulo, .imagen{
+                font-family: "Edu QLD Hand", cursive;
+                font-optical-sizing: auto;
+                font-weight: weight;
+                font-style: normal;
+
+                text-align: center;
+                flex-basis: 100px;
+                flex-grow: 1;
+            }
+            .imagen img{
+                height: auto;
+                border-radius: 15px;
+                box-shadow: 0px 4px 10px rgb(0,0,0.3);
+                max-width: 100%;
+                height: auto;
+            }
+            footer{
+                font-family: "Schoolbell", cursive;
+                font-weight: 400;
+                font-style: normal;
+
+                background: #222;
+                color: #fff;
+                text-align: center;
+                padding: 15px 0;
+                margin-top: 20px;
+                font-size: 14px;
+            }
+        </style>
+
+    
+</head>
+    <body>
+        <!--MENU DE NAVEGACION-->
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="contenedor">
+            <div class="titulo">
+                    <h1>Bienvenidos a la tienda SuperRotot</h1>
+            </div>
+                <div class="imagen">
+                    <img src="img/rob1.png">
+                </div>
+            <div class="titulo">
+                    <h2>Descubre el juguete mas emocionante del año</h2>
+            </div>
+        </div>
+        <footer>
+            @ 2025 SuperRobot | todos los derechos reservados
+        </footer>
+    </body>
+</html>
